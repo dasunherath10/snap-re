@@ -1,0 +1,89 @@
+body{
+    background-color: hsl(0, 0%, 98%);
+    font-family: 'Epilogue', sans-serif;
+    overflow-x: hidden;
+}
+
+#navbar{
+    padding-top: 30px;
+}
+
+#logo{
+    padding-left: 30px;
+}
+
+.nav-item{
+    margin-left: 13px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+#dropdown{
+    border-radius: 15px;
+    border-color: transparent;
+}
+
+.d-flex{
+    justify-content: flex-end;
+    flex-grow: 1;
+}
+
+@media only screen and (max-width: 768px) {
+    .d-flex{
+        display: flex;
+        justify-content: flex-start;
+    }
+    
+}
+
+#login-btn{
+    background-color: hsl(0, 0%, 98%);
+    color: black;
+}
+
+#signup-btn{
+    background-color: hsl(0, 0%, 98%);
+    color: black;
+    margin-left: 5px;
+    border-color: black;
+    border-width: 2PX;
+}
+
+
+/* LANDING */
+
+.landing-section{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+#landing-img{
+    width: 400px;
+    height: auto;
+}
+
+.landing-title{
+    font-weight: 900;
+    font-size: 70px;
+    justify-content: center;
+    padding-top: 100px;
+    line-height: 1;
+}
+
+.paragraph{
+    color: grey;
+    padding-right: 90px;
+}
+
+.btn{
+    background-color: black;
+    color: white;
+    padding-top: 13px;
+    padding-bottom: 10px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.testomonial{
+    margin-top: 40px;
+}
